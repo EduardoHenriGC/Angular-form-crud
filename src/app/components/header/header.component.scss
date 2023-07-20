@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 80px;
+  background-color: #434f;
+  justify-content: flex-start;
+  align-items: center;
+
+  nav {
+    display: flex;
+
+    gap: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
