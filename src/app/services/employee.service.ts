@@ -9,18 +9,18 @@ export class EmployeeService {
   constructor(private _http: HttpClient) {}
 
   addEmployee(data: any): Observable<any> {
-    return this._http.post('http://localhost:5274/api/Employees', data);
+    return this._http.post('http://localhost:22248/api/Employees', data);
   }
 
   updateEmployee(id: number, data: any): Observable<any> {
-    return this._http.put(`http://localhost:5274/api/Employees/${id}`, data);
+    return this._http.put(`http://localhost:22248/api/Employees/${id}`, data);
   }
 
   getEmployeeList(): Observable<any> {
-    return this._http.get('http://localhost:5274/api/Employees');
+    return this._http.get('http://localhost:22248/api/Employees');
   }
 
   deleteEmployee(id: number): Observable<any> {
-    return this._http.delete(`http://localhost:5274/api/Employees/${id}`);
+    return this._http.delete(`http://localhost:22248/api/Employees/${id}`);
   }
 }

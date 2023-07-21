@@ -24,6 +24,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PetComponent } from './components/pet/pet.component';
+import { PetAddEditComponent } from './components/pet-add-edit/pet-add-edit.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { FooterComponent } from './components/footer/footer.component';
     EmployeeComponent,
     HeaderComponent,
     FooterComponent,
+    PetComponent,
+    PetAddEditComponent,
   ],
   imports: [
     BrowserModule,
